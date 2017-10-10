@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 131px;
+  background-image: url("IMG_6616.jpg");
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 77px;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+  font-family: fantasy;
+  color: #f98129;
+}
+
+.inputSection{
+  margin: 51px 0px 83px 0px;
+  width: 400px;
+}
+
+.inputs{
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+
+}
+
+input {
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.addOption{
+  margin-top: 13px;
+  font-size: 20px;
+  padding: 11px 20px;
+  border-radius: 13px;
+  background-color: #c12c68;
+}
+
+.addOption:hover{
+  background-color: #0d23a8;
+  color: white;
+}
+
+.Go{
+  font-size: 20px;
+  padding: 14px 40px;
+  border-radius: 13px;
+  background-color: #c12c68;
+}
+
+.Go:hover {
+    background-color: #d9f92a;
+    color: black;
+}
