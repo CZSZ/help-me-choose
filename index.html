@@ -6,17 +6,35 @@
       <link href="./main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-      <h1>Help me choose between...</h1>
+      <button class="rubrik">Help me choose between...</button>
       <div class="inputSection">
         <div class="inputs">
           <input placeholder="Something"></input>
         </div>
         <button class="addOption">Add</button>
       </div>
+      <div class="resultSection"></div>
       <button class="Go">Go!</button>
-  <!-- <input id="input1" type="time">
-  -->
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script>
+        $(function(){
+          $('.resultSection').hide()
+
+          var add_option = function(){
+            $('.inputs').append('<input></input>')
+          }
+
+            $('.addOption').click(add_option)
+
+            var titel = function(){
+              $('.rubrik').css('background-color', '#d9f92a')
+            }
+            $('.rubrik').click(titel)
+
+            
+            });
+        })
+      </script>
   </body>
-<!--<img src="https://voxconferences.files.wordpress.com/2016/10/codemedia_posts_set1_1600x800.jpg?quality=80&strip=info">
--->
 </html>

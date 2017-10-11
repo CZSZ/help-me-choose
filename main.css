@@ -4,16 +4,21 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 131px;
-  background-image: url("IMG_6616.jpg");
+  <!-- background-image: url("IMG_6616.jpg"); --!>
 }
 
-h1 {
+.rubrik {
   font-weight: lighter;
   font-size: 77px;
   letter-spacing: 3px;
   margin-bottom: 0px;
   font-family: fantasy;
   color: #f98129;
+  background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
 }
 
 .inputSection{
