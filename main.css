@@ -52,14 +52,24 @@ input {
   color: white;
 }
 
-.Go{
+.submit{
   font-size: 20px;
   padding: 14px 40px;
   border-radius: 13px;
   background-color: #c12c68;
 }
 
-.Go:hover {
+.submit:hover {
     background-color: #d9f92a;
     color: black;
 }
+
+.resultSection{
+    height: 300px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    font-size: 77px;
+    font-family: fantasy;
+    color: #c12c68;
+  }
