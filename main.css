@@ -73,3 +73,16 @@ input {
     font-family: fantasy;
     color: #c12c68;
   }
+
+  .TheWinner {
+    font-weight: lighter;
+    font-size: 90px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    font-family: fantasy;
+    color: #f98129;
+    background-color: Transparent;
+              background-repeat:no-repeat;
+              border: none;
+              cursor:pointer;
+              overflow: hidden;

@@ -13,6 +13,7 @@
         </div>
         <button class="addOption">Add</button>
       </div>
+      <button class="TheWinner">The winner is:</button>
       <div class="resultSection"></div>
       <button class="submit">Go!</button>
 
@@ -20,7 +21,7 @@
       <script>
         $(function(){
           $('.resultSection').hide()
-
+          $('.TheWinner').hide()
           var add_option = function(){
             $('.inputs').append('<input></input>')
           }
@@ -36,6 +37,8 @@
             var submit = function(){
               $('.inputSection').hide()
               $('.resultSection').css('display', 'flex')
+              $('.rubrik').hide()
+              $('.TheWinner').css('display', 'flex')
               $('input').each(function(){
                 options.push($(this).val())
               })
